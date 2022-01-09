@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 function Avatar({ url }) {
     return <img 
     loading="lazy" 
