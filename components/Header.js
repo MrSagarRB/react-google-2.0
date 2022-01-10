@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { useRef } from "react";
 import { MicrophoneIcon, SearchIcon, XIcon } from "@heroicons/react/solid";
 import Avatar from "./Avatar";
-import HeaderOption from "./HeaderOption";
+import HeaderOptions from "./HeaderOptions";
 // import Search from './../pages/search';
 
 function Header() {
@@ -60,7 +60,7 @@ className="ml-auto"
       </div>
     {/* Header option */}
 
-<HeaderOption />
+<HeaderOptions />
 
 
 
