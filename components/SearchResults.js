@@ -23,6 +23,12 @@ const SearchResults = ({ results }) => {
           <p className="line-clamp-2">{result.snippet} </p>
         </div>
       ))}
+
+<PaginationButtons />
+
+
+
+
     </div>
   );
 };
